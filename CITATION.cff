@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below, and credit the NCES Private School Universe Survey."
+type: dataset
+title: "US Montessori Private Schools, 1989-2024"
+version: "1.0"
+date-released: 2026-11-01
+license: CC-BY-4.0
+authors:
+  - family-names: Carter
+    given-names: Sophia
+  - name: Montessori Theory
+    website: "https://www.montessori-theory.com/"
+repository-code: "https://github.com/montessoritheory/us-montessori-private-schools"
+url: "https://www.montessori-theory.com/"
+abstract: "Every Montessori private school in the 18 waves of the NCES Private School Universe Survey, 1989-90 to 2023-24, harmonized into 37,543 school-year records, with tables by year, state, city, county and locale and a GeoJSON of the 2,070 schools of 2023-24."
+keywords: [Montessori, private schools, NCES, PSS, education, early childhood, United States, open data]
+references:
+  - type: data
+    title: "Private School Universe Survey (PSS), public-use data files, 1989-90 to 2023-24"
+    authors:
+      - name: "U.S. Department of Education, National Center for Education Statistics"
+    url: "https://nces.ed.gov/surveys/pss/"

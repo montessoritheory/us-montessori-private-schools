@@ -1,0 +1,116 @@
+file,column,type,description,example
+by_city_2023_24.csv,city,str,City,Houston
+by_city_2023_24.csv,state,str,State postal code,TX
+by_city_2023_24.csv,montessori_schools,integer,Number of Montessori private schools (any flag),28
+by_city_2023_24.csv,ams_member,integer,Member of the American Montessori Society,13
+by_city_2023_24.csv,ami_member,integer,Member of the Association Montessori Internationale (asked from 2005-06),3
+by_city_2023_24.csv,students_k12,number,Students from kindergarten to grade 12 plus ungraded (NCES NUMSTUDS),1448.0
+by_city_2023_24.csv,students_prek,number,Prekindergarten enrollment (from 1995-96),1321.0
+by_city_2023_24.csv,latitude,number,"Latitude (WGS84), from 2005-06",29.7648
+by_city_2023_24.csv,longitude,number,"Longitude (WGS84), from 2005-06",-95.5043
+by_county_2023_24.csv,county_fips,string,5-digit county FIPS code,6037
+by_county_2023_24.csv,state,str,State postal code,CA
+by_county_2023_24.csv,montessori_schools,integer,Number of Montessori private schools (any flag),66
+by_locale_and_year.csv,survey_year,str,"PSS wave, school year (1989-90 to 2023-24)",1989-90
+by_locale_and_year.csv,City,integer,Schools in cities,325
+by_locale_and_year.csv,Suburb,integer,Schools in suburbs,246
+by_locale_and_year.csv,Town,integer,Schools in towns,62
+by_locale_and_year.csv,Rural,integer,Schools in rural areas,37
+by_state_2023_24.csv,rank,integer,Rank by number of schools,1
+by_state_2023_24.csv,state,str,State postal code,CA
+by_state_2023_24.csv,state_name,str,State name,California
+by_state_2023_24.csv,montessori_schools,integer,Number of Montessori private schools (any flag),309
+by_state_2023_24.csv,ams_member,integer,Member of the American Montessori Society,102
+by_state_2023_24.csv,ami_member,integer,Member of the Association Montessori Internationale (asked from 2005-06),68
+by_state_2023_24.csv,students_k12,number,Students from kindergarten to grade 12 plus ungraded (NCES NUMSTUDS),10450.0
+by_state_2023_24.csv,students_prek,number,Prekindergarten enrollment (from 1995-96),14179.0
+by_state_2023_24.csv,schools_2013_14,integer,Montessori schools in 2013-14,356
+by_state_2023_24.csv,change_since_2013_14,integer,Change in schools since 2013-14,-47
+by_state_2023_24.csv,share_of_us_montessori_pct,number,"State share of all US Montessori private schools, %",14.9
+by_state_and_year.csv,survey_year,str,"PSS wave, school year (1989-90 to 2023-24)",1989-90
+by_state_and_year.csv,school_year_end,integer,Second calendar year of the school year,1990
+by_state_and_year.csv,state,str,State postal code,AL
+by_state_and_year.csv,state_name,str,State name,Alabama
+by_state_and_year.csv,montessori_schools,integer,Number of Montessori private schools (any flag),3
+by_state_and_year.csv,montessori_program_type,integer,Type of school is Montessori,3
+by_state_and_year.csv,ams_member,integer,Member of the American Montessori Society,2
+by_state_and_year.csv,ami_member,integer,Member of the Association Montessori Internationale (asked from 2005-06),0
+by_state_and_year.csv,other_montessori_member,integer,Member of another Montessori association,1
+by_state_and_year.csv,students_k12,number,Students from kindergarten to grade 12 plus ungraded (NCES NUMSTUDS),290.0
+by_state_and_year.csv,students_prek,number,Prekindergarten enrollment (from 1995-96),0.0
+by_state_and_year.csv,students_kindergarten,number,Kindergarten enrollment (from 1995-96),0.0
+montessori_private_schools_1989_2024.csv,survey_year,str,"PSS wave, school year (1989-90 to 2023-24)",1989-90
+montessori_private_schools_1989_2024.csv,school_year_end,integer,Second calendar year of the school year,1990
+montessori_private_schools_1989_2024.csv,school_id,string,NCES private school id (PPIN),00000893
+montessori_private_schools_1989_2024.csv,school_name,number,School name (published by NCES from 2005-06),
+montessori_private_schools_1989_2024.csv,city,str,City,Montgomery
+montessori_private_schools_1989_2024.csv,state,str,State postal code,AL
+montessori_private_schools_1989_2024.csv,state_name,str,State name,Alabama
+montessori_private_schools_1989_2024.csv,zip5,string,5-digit ZIP code,36111
+montessori_private_schools_1989_2024.csv,county_fips,string,5-digit county FIPS code,1101.0
+montessori_private_schools_1989_2024.csv,latitude,number,"Latitude (WGS84), from 2005-06",
+montessori_private_schools_1989_2024.csv,longitude,number,"Longitude (WGS84), from 2005-06",
+montessori_private_schools_1989_2024.csv,locale_group,str,"City, Suburb, Town or Rural",Suburb
+montessori_private_schools_1989_2024.csv,locale_detail,number,"NCES 12-category locale, from 2005-06",
+montessori_private_schools_1989_2024.csv,program_type,str,Type of school chosen by the school,Montessori
+montessori_private_schools_1989_2024.csv,religious_typology,str,NCES 9-category religious/nonsectarian typology,"Nonsectarian, special emphasis"
+montessori_private_schools_1989_2024.csv,level,str,"Elementary, Secondary or Combined",Elementary
+montessori_private_schools_1989_2024.csv,lowest_grade,str,"Lowest grade offered, harmonized",Prekindergarten
+montessori_private_schools_1989_2024.csv,highest_grade,str,"Highest grade offered, harmonized",Grade 4
+montessori_private_schools_1989_2024.csv,prek_offered,string,Offers prekindergarten (from 1995-96),True
+montessori_private_schools_1989_2024.csv,kindergarten_offered,string,Offers kindergarten (from 1995-96),True
+montessori_private_schools_1989_2024.csv,students_k12,number,Students from kindergarten to grade 12 plus ungraded (NCES NUMSTUDS),114.0
+montessori_private_schools_1989_2024.csv,students_prek,number,Prekindergarten enrollment (from 1995-96),1.0
+montessori_private_schools_1989_2024.csv,students_kindergarten,number,Kindergarten enrollment (from 1995-96),1.0
+montessori_private_schools_1989_2024.csv,teachers_fte_k12,number,Full-time-equivalent teachers (NCES NUMTEACH),7.0
+montessori_private_schools_1989_2024.csv,survey_weight,number,"NCES final weight, sum for national estimates (1995-96 on, except 1993-94 not released)",
+montessori_private_schools_1989_2024.csv,montessori_program_type,boolean,Type of school is Montessori,True
+montessori_private_schools_1989_2024.csv,ams_member,boolean,Member of the American Montessori Society,True
+montessori_private_schools_1989_2024.csv,ami_member,boolean,Member of the Association Montessori Internationale (asked from 2005-06),False
+montessori_private_schools_1989_2024.csv,other_montessori_member,boolean,Member of another Montessori association,False
+montessori_private_schools_1989_2024.csv,name_has_montessori,boolean,"Name contains ""Montessori"" (from 2005-06)",False
+montessori_private_schools_1989_2024.csv,montessori_any,boolean,At least one Montessori flag,True
+montessori_private_schools_1989_2024.csv,religious_or_nonsectarian,str,Religious or Nonsectarian,Nonsectarian
+montessori_private_schools_2023_24.csv,school_id,string,NCES private school id (PPIN),K9300004
+montessori_private_schools_2023_24.csv,school_name,str,School name (published by NCES from 2005-06),ANCHORAGE MONTESSORI SCHOOL
+montessori_private_schools_2023_24.csv,city,str,City,Anchorage
+montessori_private_schools_2023_24.csv,state,str,State postal code,AK
+montessori_private_schools_2023_24.csv,zip5,string,5-digit ZIP code,99517
+montessori_private_schools_2023_24.csv,county_fips,string,5-digit county FIPS code,2020
+montessori_private_schools_2023_24.csv,latitude,number,"Latitude (WGS84), from 2005-06",61.17536
+montessori_private_schools_2023_24.csv,longitude,number,"Longitude (WGS84), from 2005-06",-149.926711
+montessori_private_schools_2023_24.csv,locale_detail,str,"NCES 12-category locale, from 2005-06","City, large"
+montessori_private_schools_2023_24.csv,program_type,str,Type of school chosen by the school,Montessori
+montessori_private_schools_2023_24.csv,religious_typology,str,NCES 9-category religious/nonsectarian typology,"Nonsectarian, special emphasis"
+montessori_private_schools_2023_24.csv,level,str,"Elementary, Secondary or Combined",Elementary
+montessori_private_schools_2023_24.csv,lowest_grade,str,"Lowest grade offered, harmonized",Grade 1
+montessori_private_schools_2023_24.csv,highest_grade,str,"Highest grade offered, harmonized",Grade 6
+montessori_private_schools_2023_24.csv,students_k12,number,Students from kindergarten to grade 12 plus ungraded (NCES NUMSTUDS),36.0
+montessori_private_schools_2023_24.csv,students_prek,number,Prekindergarten enrollment (from 1995-96),48.0
+montessori_private_schools_2023_24.csv,students_kindergarten,number,Kindergarten enrollment (from 1995-96),2.0
+montessori_private_schools_2023_24.csv,teachers_fte_k12,number,Full-time-equivalent teachers (NCES NUMTEACH),7.0
+montessori_private_schools_2023_24.csv,montessori_program_type,boolean,Type of school is Montessori,True
+montessori_private_schools_2023_24.csv,ams_member,boolean,Member of the American Montessori Society,True
+montessori_private_schools_2023_24.csv,ami_member,boolean,Member of the Association Montessori Internationale (asked from 2005-06),False
+montessori_private_schools_2023_24.csv,other_montessori_member,boolean,Member of another Montessori association,False
+montessori_private_schools_2023_24.csv,name_has_montessori,boolean,"Name contains ""Montessori"" (from 2005-06)",True
+national_by_year.csv,survey_year,str,"PSS wave, school year (1989-90 to 2023-24)",1989-90
+national_by_year.csv,school_year_end,integer,Second calendar year of the school year,1990
+national_by_year.csv,montessori_schools,integer,Number of Montessori private schools (any flag),670
+national_by_year.csv,montessori_program_type,integer,Type of school is Montessori,588
+national_by_year.csv,ams_member,integer,Member of the American Montessori Society,366
+national_by_year.csv,ami_member,integer,Member of the Association Montessori Internationale (asked from 2005-06),0
+national_by_year.csv,other_montessori_member,integer,Member of another Montessori association,275
+national_by_year.csv,name_has_montessori,integer,"Name contains ""Montessori"" (from 2005-06)",0
+national_by_year.csv,weighted_estimate_program_type,number,NCES weighted estimate of schools whose type is Montessori,2509.0
+national_by_year.csv,students_k12,integer,Students from kindergarten to grade 12 plus ungraded (NCES NUMSTUDS),57521
+national_by_year.csv,students_prek,number,Prekindergarten enrollment (from 1995-96),47.0
+national_by_year.csv,students_kindergarten,number,Kindergarten enrollment (from 1995-96),46.0
+national_by_year.csv,states_with_a_school,integer,Number of states (incl. DC) with at least one school,46
+national_by_year.csv,private_schools_in_file,integer,All private school records in the PSS public file,20766
+national_by_year.csv,private_schools_weighted,number,NCES weighted estimate of all private schools,34934.0
+national_by_year.csv,share_of_private_schools_pct,number,Montessori schools as % of private school records in the file,3.23
+private_school_universe_totals.csv,survey_year,str,"PSS wave, school year (1989-90 to 2023-24)",1989-90
+private_school_universe_totals.csv,school_year_end,integer,Second calendar year of the school year,1990
+private_school_universe_totals.csv,private_schools_in_file,integer,All private school records in the PSS public file,20766
+private_school_universe_totals.csv,private_schools_weighted,number,NCES weighted estimate of all private schools,34934.0
