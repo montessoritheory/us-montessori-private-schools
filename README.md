@@ -1,5 +1,7 @@
 # US Montessori Private Schools, 1989-2024
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23871758.svg)](https://doi.org/10.5281/zenodo.23871758) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![Kaggle](https://img.shields.io/badge/Kaggle-dataset-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/mariamontessori/us-montessori-private-schools) [![Hugging Face](https://img.shields.io/badge/Hugging_Face-dataset-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/montessoritheory/us-montessori-private-schools)
+
 ![US Montessori Private Schools, 1989 to 2024](images/cover.png)
 
 **English first, version française plus bas, resumen en español al final.**
@@ -128,9 +130,12 @@ The public-use files of all 18 PSS waves were downloaded from the [NCES PSS data
   author = {Carter, Sophia and {Montessori Theory}},
   year   = {2026},
   url    = {https://github.com/montessoritheory/us-montessori-private-schools},
-  note   = {Dataset, version 1.0, built from the NCES Private School Universe Survey}
+  note   = {Dataset, version 1.0, built from the NCES Private School Universe Survey},
+  doi    = {10.5281/zenodo.23871758}
 }
 ```
+
+Archived on Zenodo with a DOI, together with the data descriptor: [doi.org/10.5281/zenodo.23871758](https://doi.org/10.5281/zenodo.23871758). A research note built on this dataset, *How Many Montessori Private Schools Are There in the United States?*, is at [doi.org/10.5281/zenodo.23871815](https://doi.org/10.5281/zenodo.23871815).
 
 Source. U.S. Department of Education, National Center for Education Statistics, [Private School Universe Survey (PSS)](https://nces.ed.gov/surveys/pss/), public-use data files, 1989-90 to 2023-24. US government work, public domain.
 
@@ -157,4 +162,4 @@ Todas las escuelas Montessori privadas de Estados Unidos en las 18 olas de la en
 
 ---
 
-**Part of [Montessori Open Data](https://github.com/montessoritheory)**, documented open datasets on Montessori schools and early childhood, by [Montessori Theory](https://www.montessori-theory.com/).
+**Part of [Montessori Open Data](https://github.com/montessoritheory/montessori-open-data)**, documented open datasets on Montessori schools and early childhood, by [Montessori Theory](https://www.montessori-theory.com/).

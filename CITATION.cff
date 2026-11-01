@@ -4,6 +4,7 @@ type: dataset
 title: "US Montessori Private Schools, 1989-2024"
 version: "1.0"
 date-released: 2026-11-01
+doi: 10.5281/zenodo.23871758
 license: CC-BY-4.0
 authors:
   - family-names: Carter
